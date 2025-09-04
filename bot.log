@@ -1,0 +1,579 @@
+2025-09-04 13:29:47,246 INFO Loaded settings for 0 users, 0 last_signals
+2025-09-04 13:29:47,336 INFO Adding job tentatively -- it will be properly scheduled when the scheduler starts
+2025-09-04 13:29:47,336 INFO Starting bot...
+2025-09-04 13:29:47,337 INFO Added job "autoscan_job" to job store "default"
+2025-09-04 13:29:47,337 INFO Scheduler started
+2025-09-04 13:29:57,254 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:29:57 UTC)" (scheduled at 2025-09-04 06:29:57.248643+00:00)
+2025-09-04 13:29:57,254 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:30:57 UTC)" executed successfully
+2025-09-04 13:30:08,328 INFO Added job "<lambda>" to job store "default"
+2025-09-04 13:30:09,340 INFO Removed job a8486cb7741e44aa93d72fb7989d5292
+2025-09-04 13:30:09,340 INFO Running job "<lambda> (trigger: date[2025-09-04 06:30:09 UTC], next run at: 2025-09-04 06:30:09 UTC)" (scheduled at 2025-09-04 06:30:09.327597+00:00)
+2025-09-04 13:30:10,262 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:30:16,323 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:30:18,033 INFO Job "<lambda> (trigger: date[2025-09-04 06:30:09 UTC], next run at: 2025-09-04 06:30:09 UTC)" executed successfully
+2025-09-04 13:30:57,252 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:31:57 UTC)" (scheduled at 2025-09-04 06:30:57.248643+00:00)
+2025-09-04 13:30:58,166 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:31:04,337 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:31:06,017 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:31:57 UTC)" executed successfully
+2025-09-04 13:31:57,255 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:32:57 UTC)" (scheduled at 2025-09-04 06:31:57.248643+00:00)
+2025-09-04 13:31:58,214 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:32:04,463 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:32:06,142 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:32:57 UTC)" executed successfully
+2025-09-04 13:32:57,249 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:33:57 UTC)" (scheduled at 2025-09-04 06:32:57.248643+00:00)
+2025-09-04 13:32:58,191 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:33:04,526 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:33:06,215 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:33:57 UTC)" executed successfully
+2025-09-04 13:33:57,249 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:34:57 UTC)" (scheduled at 2025-09-04 06:33:57.248643+00:00)
+2025-09-04 13:33:58,211 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:34:03,622 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:34:04,625 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:34:06,304 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:34:57 UTC)" executed successfully
+2025-09-04 13:34:57,249 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:35:57 UTC)" (scheduled at 2025-09-04 06:34:57.248643+00:00)
+2025-09-04 13:34:58,201 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:35:04,502 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:35:06,212 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:35:57 UTC)" executed successfully
+2025-09-04 13:35:57,257 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:36:57 UTC)" (scheduled at 2025-09-04 06:35:57.248643+00:00)
+2025-09-04 13:35:58,152 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:36:03,154 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:36:04,021 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:36:05,768 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:36:57 UTC)" executed successfully
+2025-09-04 13:36:57,262 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:37:57 UTC)" (scheduled at 2025-09-04 06:36:57.248643+00:00)
+2025-09-04 13:36:58,205 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:37:04,320 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:37:06,006 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:37:57 UTC)" executed successfully
+2025-09-04 13:37:57,259 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:38:57 UTC)" (scheduled at 2025-09-04 06:37:57.248643+00:00)
+2025-09-04 13:37:58,209 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:38:04,263 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:38:05,867 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:38:57 UTC)" executed successfully
+2025-09-04 13:38:57,262 INFO Running job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:39:57 UTC)" (scheduled at 2025-09-04 06:38:57.248643+00:00)
+2025-09-04 13:38:58,237 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:39:04,522 ERROR Failed to send auto signal to 596173361: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+Traceback (most recent call last):
+  File "C:\Users\lebla\OneDrive\Рабочий стол\CRYPTO BOT\botLINK.py", line 716, in send_signals_for_user_job
+    bot.send_message(chat_id=uid, text=text, parse_mode=ParseMode.MARKDOWN_V2)
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 134, in decorator
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 534, in send_message
+    return self._message(  # type: ignore[return-value]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\ext\extbot.py", line 203, in _message
+    result = super()._message(
+             ^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 344, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\bot.py", line 299, in _post
+    return self.request.post(
+           ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 361, in post
+    result = self._request_wrapper(
+             ^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\lebla\AppData\Local\Programs\Python\Python312\Lib\site-packages\telegram\utils\request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: character '-' is reserved and must be escaped with the preceding '\'
+2025-09-04 13:39:06,212 INFO Job "autoscan_job (trigger: interval[0:01:00], next run at: 2025-09-04 06:39:57 UTC)" executed successfully

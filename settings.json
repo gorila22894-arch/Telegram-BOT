@@ -1,0 +1,32 @@
+{
+  "596173361": {
+    "auto": true,
+    "tfs": [
+      "15m",
+      "1h"
+    ],
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "WLFI",
+      "JELLYJELLY"
+    ],
+    "min_volume": 0.0
+  },
+  "393173934": {
+    "auto": false,
+    "tfs": [
+      "15m",
+      "1h"
+    ],
+    "coins": [
+      "BTC",
+      "ETH",
+      "SOL",
+      "WLFI",
+      "JELLYJELLY"
+    ],
+    "min_volume": 0.0
+  }
+}
