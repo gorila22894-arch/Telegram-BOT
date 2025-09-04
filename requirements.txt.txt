@@ -4,5 +4,3 @@ ta
 matplotlib
 apscheduler
 pandas
-imghdr
-
